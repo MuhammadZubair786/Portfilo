@@ -1,0 +1,60 @@
+.main{
+    border: 3px solid red;
+    width: 200px;
+    background-image:  linear-gradient(#F30ED0,cyan);
+    box-shadow: 3px 3px 16px blue;
+    border-radius: 20px;
+    text-shadow: 2px 2px blue; 
+}
+#num{
+    background-color: #403F3D;
+    width: 35px;
+    height: 34px;
+    border-radius: 10px 10px 10px 10px ;
+    color:white;
+    font-size: 20px;
+    border-color: #403F3D;
+    box-shadow: 1px 1px #403F3D;
+    text-shadow: 1px 1px blue; 
+}
+#eq{
+    background-color: #F39A0E ;
+    width: 35px;
+    height: 34px;
+    margin-left: -5px;
+    border-radius: 10px 10px 10px 10px ;
+    color:white;
+    font-size: 20px;
+    border-color: #F39A0E;
+    box-shadow: 1px 1px #F39A0E;
+    text-shadow: 1px 1px blue; 
+ 
+}
+#op{
+    background-color: #F3370E  ;
+    width: 35px;
+    height: 34px;
+    margin-left: -5px;
+    border-radius: 10px 10px 10px 10px ;
+    color:white;
+    font-size: 20px;
+    border-color: #F3370E ;
+    box-shadow: 1px 1px #F3370E ;
+    text-shadow: 1px 1px blue; 
+}
+#lg{
+    background-color: blue  ;
+    width: 35px;
+    height: 34px;
+    margin-left: -5px;
+    border-radius: 10px 10px 10px 10px ;
+    color:white;
+    font-size: 15px;
+    border-color: blue ;
+    box-shadow: 1px 1px #F3370E ; 
+    text-shadow: 1px 1px red; 
+}
+
+#lg:hover,#op:hover,#num:hover,#eq:hover{
+    background-color: green;
+}

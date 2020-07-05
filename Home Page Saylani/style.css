@@ -1,0 +1,272 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    background-color:#316DC3;
+    color: yellow;
+    
+  
+    
+}
+.img-fluid:hover{
+  margin-top: -10px;
+  height: 180px;
+
+}
+.card-body:hover{
+  margin-top: -10px;
+  height: 200px;
+
+}
+#footer {
+  background: #fff;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  padding: 30px 0;
+  color: #222222;
+  font-size: 14px;
+}
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+#marq{
+  width: 1100px;
+  margin-left: 100px;
+  background-color: blue;
+}
+
+#intro{
+  margin-top: 60px;
+  width: 500px;
+  margin-left: 550px;
+  font-size: 40px;
+}
+@media only screen and (max-width:600px){
+  #carouselExampleFade{
+    width: 590px;
+    
+    
+
+  }
+  
+
+  #cen{
+    display: none;
+  }
+  #tit{
+   font-size: 0px;
+  }
+  
+  #marq{
+    width: 500px;
+  margin-left: 100px;
+
+  }
+  #intro{
+    width: 300px;
+    margin-left: 50px;
+    margin-right: auto;
+    font-size: 20px;
+  }
+  .main{
+    width: 600px;
+  }
+}
+@media only screen and (max-width:460px){
+  #marq{
+    width: 300px;
+    margin-left: 50px;
+
+  }
+ 
+
+  #cen{
+    display: none;
+  }
+}
+
+@media only screen and (max-width:800px){
+  #intro{
+    width: 300px;
+    margin-left: 150px;
+    margin-right: auto;
+    font-size: 20px;
+
+
+  }
+ 
+  #marq{
+    width: 400px;
+    margin-left: 0px;
+
+
+  }
+}
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+
+
+@media only screen and (max-width:360px){
+  
+  #do{
+    width: 10px;
+  }
+  
+
+  #cen{
+    display: none;
+  }
+  #first{
+    width: 300px;
+    
+  }
+  #carouselExampleFade{
+    width: 400px;
+    
+    
+
+  }
+ 
+
+  
+  .main{
+    width: 400px;
+  }  
+  #marq{
+    width: 250px;
+    margin-left: 50px;
+
+  }
+  #intro{
+    width: 300px;
+    margin-left: 50px;
+    margin-right: auto;
+    font-size: 20px;
+
+  }
+}
+
+input[type="button"]:hover{
+    background-color: aqua;
+    border-radius: 20px;
+    color: red !important;
+    border-color: yellow;
+  }
+  .dropdown-menu a:hover{
+    background-color: aqua;
+    color: rgb(243, 16, 213) !important;
+  }
+    li.active a {
+      background: #316DC3;
+      color: white !important;
+      border-radius: 20px;
+    }
+
+    ul li a:hover {
+      background: #316DC3;
+      color: white !important;
+      border-radius: 20px;
+    }
+
+@media only screen and (max-width: 600px) {
+  #bg-primary {
+    width: 500px;
+    display: none;
+      
+    }
+   
+}
+
+.one{
+   padding: 10px;
+  
+    
+    color: white;
+    text-align: center;
+    
+    
+}
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+.one i{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.three button{
+    
+    margin-top: 10px;
+   
+}
+.two p{
+    margin-top: 10px;
+    color: white;
+   
+  
+}
+.img{
+    margin-left: 40px;
+   
+}
+ul li{
+    margin-left: 40px;
+}
+.employees,.customer,.design,.order
+{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+	#new{
+            margin-top: 20px;
+            border: 5px double;
+            border-radius: 10px;
+            height: 50px;
+            width: 160px;
+            border-color: brown;
+            background-color: orange;
+            color: white;
+            font-size: 20px;
+        }
+     #new:hover{
+            color:white;
+            background-color:blue;
+            border: 5px double;
+            border-radius: 30px 30px 30px 30px;
+            border-style:inset  inset inset hidden ;
+            border-color:red rgb(238, 28, 28) red red ;
+            height: 50px;
+            width: 180px;
+            text-transform: uppercase;
+
+
+        }
+
+       #new :active
+        {
+            color: red;
+            background-color:pink;  
+            border-radius: 30px 30px 30px 30px;
+            border-style:hidden inset inset inset;
+            border-color: deeppink;
+            width: 130px;
+        }
+
+
+

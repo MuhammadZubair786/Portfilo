@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style/css/all.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <style>
+    #link:hover {
+      border-bottom: 2px solid #66bbff;
+      color: blue;
+    }
+
+    #link {
+      color: #66bbff;
+      font-size: 2.1rem;
+      display: inline-block;
+    }
+    #flink{
+      text-decoration: none;
+      color: black;
+    }
+    #flink:hover{
+      border-bottom: 2px solid red;
+      color: blue;
+      font-size: 15px;
+
+    }
+
+    .centered {
+      position: absolute;
+      top: 20%;
+      left: 40%;
+
+
+    }
+
+    #s2 {
+
+      top: 20%;
+      left: 40%;
+
+    }
+
+
+
+    @media screen and (max-width: 360px) {
+
+      li {
+        margin: 0 auto;
+      }
+
+    }
+
+    @media screen and (min-width: 600px) {
+      .img1 {
+        background-image: url("img/if.PNG");
+        height: 800px;
+        background-repeat: no-repeat;
+
+
+
+
+      }
+
+      .img2 {
+        background-image: url("img/i2.PNG");
+        margin-top: -510px;
+        height: 600px;
+        background-repeat: no-repeat;
+
+
+
+
+      }
+
+      .img3 {
+        background-image: url("img/new1.PNG");
+        margin-top: -210px;
+
+        height: 600px;
+
+      }
+
+      .img4 {
+        background-image: url("img/watch_small.jpg");
+        height: 500px;
+      }
+
+
+
+      .img5 {
+        background-image: url("img/c1.PNG");
+        height: 580px;
+
+
+      }
+
+      .img6 {
+
+        height: 500px;
+        background-color: #F8F9F9;
+      }
+
+      .img7 {
+
+        height: 520px;
+        background-color: #F8F9F9;
+      }
+
+      .img8 {
+
+        height: 520px;
+        background-color: #F8F9F9;
+      }
+
+      .img9 {
+
+        height: 580px;
+        background-color: #F8F9F9;
+      }
+
+      .txt {
+        background-color: #D5DBDB;
+        width: 100%;
+      }
+
+
+      .img1b {
+        display: none;
+      }
+
+      .img2b {
+        display: none;
+      }
+
+      .img3b {
+        display: none;
+      }
+
+      .img4b {
+        display: none;
+      }
+
+      .img5b {
+        display: none;
+      }
+
+      .img6b {
+        display: none;
+      }
+
+      .img7b {
+        display: none;
+      }
+
+      .img8b {
+        display: none;
+      }
+
+      .img9b {
+        display: none;
+      }
+
+
+
+    }
+
+    @media (max-width: 978px) {
+      .container-fluid {
+        padding: 10;
+        margin: 0;
+      }
+
+
+      @media screen and (max-width: 600px) {
+
+        .centered {
+          position: absolute;
+          top: 120%;
+          left: 45%;
+          font-size: 50px;
+          transform: translate(-50%, -50%);
+
+        }
+
+        .img1 {
+          display: none;
+        }
+
+        .img2 {
+          display: none;
+        }
+
+        .img3 {
+          display: none;
+        }
+
+        .img4 {
+          display: none;
+        }
+
+        .img5 {
+          display: none;
+        }
+
+        .img6 {
+          display: none;
+        }
+
+        .img7 {
+          display: none;
+        }
+
+        .img8 {
+          display: none;
+        }
+
+        .img9 {
+          display: none;
+        }
+
+        .img1b {
+          background-image: url("img/is.PNG");
+
+
+
+
+          width: 100%;
+          height: 450px;
+        }
+
+        .img2b {
+          background-image: url("img/i2s.PNG");
+          margin-left: -30px;
+          width: 100%;
+          height: 280px;
+
+        }
+
+        .img3b {
+          background-image: url("img/new.PNG");
+
+
+          width: 100%;
+
+          background-repeat: no-repeat;
+
+        }
+
+        .img4b {
+          background: url("img/c3.PNG");
+          height: 200px;
+          width: 100%;
+
+        }
+
+        .img5b {
+          background: url("img/i4b.PNG");
+          height: 400px;
+
+        }
+
+        .img6b {
+          width: 100%;
+
+        }
+
+
+
+
+
+
+        .c {
+
+          top: 500%;
+          left: 45%;
+          font-size: 0px;
+          transform: translate(-50%, -50%);
+          height: 300px;
+
+
+        }
+      }
+
+
+
+
+
+
+
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="container-fluid " style="color: white;background-color: #E74C3C ;">
+    <div class="row">
+      <div class="col col-lg-2 col-sm-4 col-md-3 text-center  pt-3">
+        <a href="home.html" style="color: white;"><i class="fab fa-apple " style="font-size: 30px;margin-top: -10px;"></i></a>
+
+      </div>
+      <div class="col col-lg-8 col-sm-4 col-md-3">
+        <nav class="navbar navbar-expand-lg  ">
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="img/sp.png" style="width: 30px;background-color: darkorange;">
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="mac.html" style="color: white;margin-left: 30px;">Mac</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ipad.html" style="color: white;margin-left: 30px;">Ipad</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="iphone.html" style="color: white; margin-left: 30px;">Iphone</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="watch.html" style="color: white; margin-left: 30px;">Watch</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: white; margin-left: 30px">Tv</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: white; margin-left: 30px;">Music</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: white; margin-left: 30px;">Support</a>
+              </li>
+              <li class="nav-item" style="margin-left: 30px;">
+                <form class="form-inline my-2 my-lg-0">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"
+                    style="width:100px;">
+                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+              </li>
+            </ul>
+
+          </div>
+        </nav>
+
+
+      </div>
+
+      <div class="col col-lg-2 col-sm-4 col-md-3 text-center pt-3 ">
+
+        <i class="fas fa-shopping-bag " style="font-size: 30px;margin-top: -10px;"></i>
+
+      </div>
+
+
+    </div>
+  </div>
+  <div class="container-fluid text-center">
+    <p>Shop online for fast, free, no‑contact delivery. Call us at 1-800-MY-APPLE or visit support.</p>
+
+  </div>
+  <div class="container-fluid">
+
+    <div class="row">
+      <div class="col col-lg-12 col-sm-12 ">
+        <div class="img1">
+
+
+          <p>
+            <h1 style="color: white;text-shadow:2px 2px yellow;font-size: 50px;" class="text-center">
+              iPhone SE</h1>
+            <h2 style="color: white;font-size: 40px;margin-top: 10px;text-shadow:2px 2px blue" class="text-center">Lots
+              to love.
+              Less to spend.</h2>
+            <h3 style="color: white;font-size: 40px;text-shadow:2px 2px deeppink;margin-top: 10px;" class="text-center">
+              Starting at $399.</h3>
+            <h3 style="color: white;font-size: 30px;text-shadow:2px 2px deeppink;margin-top: 10px;" class="text-center">
+              From $9.54/mo. or $229 with trade-in.1</h3>
+            <a href="iphone.html" style="font-size: 30px;margin-top: 10px;margin-left:450px;text-decoration: none"
+              class="text-center" id="link">Learn More >
+              <a href="iphone.html" 
+                style="font-size: 30px;margin-top: 10px;text-decoration: none;" class="text-center"
+                id="link">&emsp;&emsp; Buy ></a>
+          </p>
+
+        </div>
+
+        <div class="img1b">
+          <p>
+            <h1 style="color: white;text-shadow:2px 2px yellow" class="text-center">
+              iPhone SE</h1>
+            <h2 style="color: white;font-size: 40px;text-shadow:2px 2px blue" class="text-center">Lots to love.<br>
+              Less to spend.</h2>
+            <h3 style="color: white;text-shadow:2px 2px deeppink" class="text-center">Starting at $399.</h3>
+            <a href="iphone.html"  style="font-size: 25px;margin-left: 120px;text-decoration: none" class="text-center"
+              id="link">Learn More ><br>
+              <a href="iphone.html"  style="font-size: 25px;margin-left: 120px;text-decoration: none;" class="text-center"
+                id="link">&emsp;&emsp; Buy ></a>
+          </p>
+
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col col-lg-12 col-sm-12 ">
+
+        <div class="img2">
+          <p>
+            <h1 style="color: red;text-shadow:2px 2px yellow;font-size: 50px;" class="text-center">
+              iPhone 11</h1>
+            <h2 style="color: red;font-size: 40px;margin-top: 10px;text-shadow:2px 2px blue" class="text-center">Just
+              the right amount of everything.</h2>
+
+            <h3 style="color: red;font-size: 30px;text-shadow:2px 2px white;margin-top: 10px;" class="text-center">From
+              $18.54/mo. or $440 with trade-in.1</h3>
+            <a href="iphone.html"
+              style="color: white;font-size: 30px;margin-top: 10px;text-shadow:2px 2px deeppink;margin-left:450px;text-decoration: none"
+              class="text-center" id="link">Learn More >
+              <a href="iphone.html"
+                style="color: white;font-size: 30px;text-shadow:2px 2px deeppink;margin-top: 10px;text-decoration: none;"
+                class="text-center" id="link">&emsp;&emsp; Buy ></a>
+          </p>
+
+
+
+        </div>
+
+
+      </div>
+      <div class="img2b">
+        <p>
+          <h1 style="color: chartreuse;text-shadow:2px 2px yellow" class="text-center">
+            iPhone 11 </h1>
+          <h2 style="color: red;font-size: 30px;text-shadow:2px 2px blue" class="text-center">Just the right<br> amount
+            of everything.</h2>
+          <h3 style="color: chocolate;text-shadow:2px 2px yellow" class="text-center">Starting at $399.</h3>
+          <a href="iphone.html" style="font-size: 25px;margin-left: 120px;text-decoration: none" class="text-center"
+            id="link">Learn More ><br>
+            <a href="#" style="font-size: 25px;margin-left: 120px;text-decoration: none;" class="text-center"
+              id="link">&emsp;&emsp; Buy ></a>
+        </p>
+
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col col-lg-12 col-sm-12  ">
+        <br>
+        <div class="img3 text-center">
+          <br>
+          <br><br>
+          <br>
+
+          <p>
+            <h1 style="color: white;text-shadow:2px 2px yellow" class="text-center">
+              iPhone 11 Pro</h1>
+            <h2 style="color: white;font-size: 40px;text-shadow:2px 2px blue" class="text-center">Pro cameras.Pro
+              Display .pro Performance.</h2>
+            <h3 style="color: white;text-shadow:2px 2px deeppink" class="text-center">From $24.95/mo . or $599 with
+              trade-in.</h3>
+            <a href="#" style="color:red;font-size: 25px;text-decoration: none" class="text-center" id="link">Learn More
+              >
+              <a href="#" style="color:red;font-size: 25px;text-decoration: none;" class="text-center"
+                id="link">&emsp;&emsp; Buy ></a>
+          </p>
+
+
+
+
+
+        </div>
+        <div class="img3b">
+          <br>
+          <p>
+            <h1 style="color: red;text-shadow:2px 2px yellow" class="text-center">
+              iPhone 11 Pro</h1>
+            <h3 style="color: deeppink;font-size: 30px;text-shadow:2px 2px blue" class="text-center">Pro Cameras.<br>
+              Pro Display Pro Performances.</h3>
+            <h3 style="color: red;font-size: 20px;text-shadow:2px 2px white;margin-top: 10px;" class="text-center">From
+              $18.54/mo. or $440 with trade-in.1</h3>
+            <a href="#" style="font-size: 25px;margin-left: 20px;text-decoration: none" class="text-center"
+              id="link">Learn More >
+              <a href="#" style="font-size: 25px;text-decoration: none;" class="text-center" id="link">&emsp; Buy ></a>
+          </p>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="container-fluid">
+    <br>
+    <div class="row">
+      <br>
+      <div class="col col-lg-6 col-sm-12  text-center" style="background-color: #F8F9F9;margin-top: 10px;">
+        <br>
+        <div class="img4">
+          <img src="img/logo_watch_large.png">
+          <br>
+          <p>With the new always-On Retina Display<br>You've never seen a Watch like This.</p>
+          <a href="watch.html" style="font-size: 25px;text-decoration: none" class="text-center" id="link">Learn More >
+            <a href="watch.html"
+              style="font-size: 28px;margin-top: 15px;text-decoration: none;" class="text-center"
+              id="link">&nbsp;&nbsp;Buy ></a>
+            </p>
+
+        </div>
+
+      </div>
+      <div class="col col-lg-6 col-sm-12  text-center">
+
+
+        <a href="">
+          <div class="img5">
+
+
+
+          </div>
+        </a>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container-fluid">
+
+    <div class="row text-center">
+
+      <div class="col img4b">
+
+        <img src="img/logo_watch_large.png">
+        <br>
+        <p style="color: red;">With the new always-On Retina Display<br>You've never seen a Watch like This.</p>
+        <a href="watch.html" style="font-size: 25px;text-decoration: none" class="text-center" id="link">Learn More >
+          <a href="watch.html"
+            style="font-size: 28px;margin-top: 15px;text-decoration: none;" id="link" class="text-center">Buy ></a>
+          </p>
+
+      </div>
+
+    </div>
+    <div class="col img5b">
+
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <br>
+      <div class="col col-lg-6 col-sm-12">
+        <br>
+        <div class="img6">
+          <h1 style="color: red;text-shadow: 2px 2px yellowgreen;" class="text-center">Gifts For Mom</h1>
+          <h3 style="color: #66bbff;text-decoration: none;" class="text-center"><a href="" id="link">Shop</a> ></h3>
+          <img src="img/i6.PNG" width="600px">
+
+        </div>
+      </div>
+
+      <div class="col col-lg-6 col-sm-12">
+        <br>
+        <div class="img7">
+
+          <h4 style="color: red;text-shadow: 2px 2px yellowgreen;" class="text-center">New</h4>
+          <h1 style="color: greenyellow;text-shadow: 2px 2px red;" class="text-center">iPad Pro</h1>
+          <h3 class="text-center">Your next computer is not a computer.</h3>
+          <a href="#" style="font-size: 25px;text-decoration: none;margin-left: 250px;" class="text-center"
+            id="link">Learn More >
+            <a href="ipad.html"
+              style="font-size: 28px;margin-top: 15px;text-decoration: none;" class="text-center"
+              id="link">&nbsp;&nbsp;Buy ></a>
+            <br>
+            <img src="img/ipad.PNG" style="height: 310px;width: 400px;margin-left: 90px;">
+
+
+
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="container-fluid">
+    <br>
+    <div class="row">
+      <div class="col col-lg-6 col-sm-12  " style="background-color:#F8F9F9 ">
+        <br>
+        <div class="img6" >
+          <br>
+          <h1 style="color: red;text-shadow: 2px 2px yellowgreen;" class="text-center">Gifts For Mom</h1>
+          <h3 style="color: #66bbff;text-decoration: none;" class="text-center"><a href="" id="link" >Shop</a> ></h3>
+          <img src="i6.PNG" >
+         
+         
+        </div>
+        
+      </div>
+        <div class="col col-lg-6 col-sm-12  " style="background-color: #F8F9F9;">
+         
+       
+       
+          <div class="img7" >
+            
+            <h4 style="color: red;text-shadow: 2px 2px yellowgreen;" class="text-center">New</h4>
+            <h1 style="color: greenyellow;text-shadow: 2px 2px red;" class="text-center">iPad Pro</h1>
+            <h3 class="text-center">Your next computer is not a computer.</h3>
+            <a href="#" style="font-size: 25px;text-decoration: none;margin-left: 250px;" class="text-center" id="link">Learn More >
+          <a href="https://classroom.google.com/c/NzM5ODIxNDIzMjZa/a/ODA5NTM3OTQ1OTVa/details"
+            style="font-size: 28px;margin-top: 15px;text-decoration: none;" class="text-center" id="link">&nbsp;&nbsp;Buy ></a>
+            <br>
+            <img src="ipad.PNG" style="height: 310px;width: 400px;margin-left: 90px;">
+          
+           
+    
+          </div>
+          
+          </div>
+  
+      </div>
+    </div> -->
+  <div class="container-fluid">
+
+    <div class="row" style="display: flex;flex-wrap: wrap;">
+      <div class="col  " style="background-color:#F8F9F9 ">
+        <br>
+        <div class="img6b">
+
+
+
+
+          <h1 style="color: red;text-shadow: 2px 2px yellowgreen;" class="text-center">Gifts For Mom</h1>
+          <h3 style="color: #66bbff;text-decoration: none;" class="text-center"><a href="" id="link">Shop</a> ></h3>
+          <img src="img/i6b.PNG" width="100%">
+
+
+        </div>
+
+      </div>
+      <div class="col col-lg-6 col-sm-12  ">
+        <br>
+
+        <div class="img7b" style="background-color: #F8F9F9;">
+
+
+          <h4 style="color: red;text-shadow: 2px 2px yellowgreen;" class="text-center">New</h4>
+          <h1 style="color: greenyellow;text-shadow: 2px 2px red;" class="text-center">iPad Pro</h1>
+          <h3 class="text-center">Your next computer is not a computer.</h3>
+          <a href="#" style="font-size: 25px;text-decoration: none;" class="text-center" id="link">Learn More >
+            <a href="https://classroom.google.com/c/NzM5ODIxNDIzMjZa/a/ODA5NTM3OTQ1OTVa/details"
+              style="font-size: 28px;margin-top: 15px;text-decoration: none;" class="text-center"
+              id="link">&nbsp;&nbsp;Buy ></a>
+            <br>
+            <img src="img/ipad.PNG" style="height: 340px;width: 300px;">
+
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <!-- <div class="container-fluid">
+    <div class="row">
+      <div class="col  col-lg-6 col-sm-12">
+        <div class="img4 text-center">
+          <br>
+          <a href="#"><i class="fab fa-apple  " style="font-size:50px;text-shadow: 2px 2px red;color:black;"></i></a>
+          <h2 style="display: inline;font-family:sans-serif;font-weight: bold;text-shadow: 2px 2px red;">&nbsp;WATCH
+          </h2>
+          <h3 style="color: red;text-shadow: 2px 2px blue;">SERIES 5</h3>
+          <h4 style="color: black;text-shadow: 2px 2px deeppink;">With the Always-On Retina display</h4>
+          <a href="#" style="font-size: 25px;;text-decoration: none" class="text-center">Learn More >
+            <a href="#" style="font-size: 25px;margin-top: -550px;text-decoration: none;"
+              class="text-center">&emsp;&emsp; Buy ></a></p>
+
+            <img src="c3.PNG">
+           
+
+
+        </div>
+
+
+
+      </div>
+
+      <div class="col col-lg-6 col-sm-12">
+        <div class="img5"></div>
+      </div>
+
+
+
+
+
+
+
+
+    </div>
+  </div> -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col col-lg-6 col-md-12 img8">
+        <a href=""><img src="img/i8.PNG"></a>
+      </div>
+      <div class="col col-lg-6 col-md-12 img9">
+        <a href=""><img src="img/i9.PNG" style="width: 100%;height: 570px;"></a>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+
+    <div class="row">
+      <div class="col col-lg-6 col-12 img8b">
+        <br>
+        <a href=""><img src="img/i8b.PNG" width="100%"></a>
+      </div>
+      <div class="col col-lg-6 col-12 img9b">
+        <br>
+        <a href=""><img src="img/i9.PNG" style="width: 100%;"></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="txt">
+    <div class="container">
+      <div class="row">
+
+        <div class="col col-lg-12">
+
+          <br>
+          <p style="text-align: justify;font-size: 13px;font-weight: bold;">1. Trade In: Trade‑in values vary. iPhone 11
+            and iPhone 11 Pro promotional pricing is after trade‑in of iPhone 8 Plus and iPhone X in good condition.
+            iPhone SE promotional pricing is after trade-in of iPhone 8 in good condition.
+            Additional trade‑in values require purchase of a new iPhone, subject to availability and limits.
+            Must be at least 18. Apple or its trade-in partners reserve the right to refuse or limit any Trade In
+            transaction for any reason. In‑store trade‑in requires presentation of a valid, government-issued photo ID
+            (local law may require saving this information).
+            Sales tax may be assessed on full value of new iPhone. Additional terms from Apple or Apple’s trade-in
+            partners may apply. Monthly pricing: Available to qualified customers and requires 0% APR, 24-month
+            installment loan with Citizens One or Apple Card Monthly
+            Installments and iPhone activation with AT&T, Sprint, T-Mobile, or Verizon. Taxes and shipping not included.
+            Additional Apple Card Monthly Installments terms are in the Customer Agreement. Additional iPhone Payments
+            terms are here.
+            <br><br>
+            Apple TV+ is $4.99/month after free trial. One subscription per Family Sharing group. Offer good for 3
+            months after eligible device activation.
+            Plan automatically renews until cancelled.
+            Restrictions and other terms apply.
+            <br><br>
+            Magic Keyboard sold separately.
+            <br><br>
+            The COVID‑19 site and app were developed in partnership with CDC. They are not meant as an endorsement of
+            any Apple products.
+            <hr style="background-color: red;height: 2px;">
+          </p>
+          <div class="container" style="font-size: 13px;">
+            <div class="row">
+              <div class="col col-lg-3 col-12 col-sm-12 col-md-6">
+                <ul style="list-style-type: none;"><b>Shop and Learn</b>
+                  <li><a href="#" style="text-decoration: none;" id="flink">Mac</a></li>
+                  <li><a href="#" style="text-decoration: none;" id="flink">Pad</a></li>
+                  <li><a href="#" style="text-decoration: none;" id="flink">Iphone</a></li>
+                  <li><a href="#" style="text-decoration: none;" id="flink">Watch</a></li>
+                  <li><a href="#" style="text-decoration: none;" id="flink">Tv</a></li>
+                  <li><a href="#" style="text-decoration: none;" id="flink">Music</a></li>
+                  <li><a href="#" style="text-decoration: none;" id="flink">AirPods</a></li>
+                  <li><a href="#" style="text-decoration: none;" id="flink">HomePad</a></li>
+                  <li><a href="#" style="text-decoration: none;" id="flink">ipad touch</a></li>
+                  <li><a href="#" style="text-decoration: none;" id="flink">Accessiories</a></li>
+                  <li><a href="#" style="text-decoration: none;" id="flink">Gift Cards</a></li>
+                </ul>
+              </div>
+              <div class="col col-lg-3 col-12 col-sm-12 col-md-6">
+                <ul style="list-style-type: none;"><b>Services</b>
+                  <li><a href="#" style="text-decoration: none;" id="flink">Apple Music</a></li>
+                  <li><a href="#" style="text-decoration: none;" id="flink">Apple News+</a></li>
+                  <li><a href="#" style="text-decoration: none;" id="flink">Apple TV+</a></li>
+                  <li><a href="#" style="text-decoration: none;" id="flink">Apple Arcade</a></li>
+                  <li><a href="#" style="text-decoration: none;" id="flink">Apple Card</a></li>
+                  <li><a href="#" style="text-decoration: none;" id="flink">iCloud</a></li>
+                  <br>
+
+                </ul>
+                <ul style="list-style-type: none;"><b>Account</b>
+                  <li><a href="#" style="text-decoration: none;" id="flink">Manage Your Apple ID</a></li>
+                  <li><a href="#" style="text-decoration: none;" id="flink">Apple Store Account</a></li>
+                  <li><a href="#" style="text-decoration: none;" id="flink">iCloud.com</a></li>
+                </ul>
+
+              </div>
+              <div class="col col-lg-2 col-12 col-sm-12 col-md-6">
+                <ul style="list-style-type: none;"><b>Apple Store</b>
+                  <li><a href="#" style="text-decoration: none;" id="flink">Find a Store</a></li>
+                  <li><a href="#" style="text-decoration: none;" id="flink">Genius Bar</a></li>
+                  <li><a href="#" style="text-decoration: none;" id="flink">Today at Apple</a></li>
+                  <li><a href="#" style="text-decoration: none;" id="flink">Apple Camp</a></li>
+                  <li><a href="#" style="text-decoration: none;" id="flink">Field Trip</a></li>
+                  <li><a href="#" style="text-decoration: none;" id="flink">Apple Store App</a></li>
+                  <li><a href="#" style="text-decoration: none;" id="flink">Refurbished and Clearance</a></li>
+                  <li><a href="#" style="text-decoration: none;" id="flink">Financing</a></li>
+                  <li><a href="#" style="text-decoration: none;" id="flink">Apple Trade In</a></li>
+                  <li><a href="#" style="text-decoration: none;" id="flink">Order Status</a></li>
+                  <li><a href="#" style="text-decoration: none;" id="flink">Shopping Help</a></li>
+                </ul>
+
+              </div>
+              <div class="col col-lg-2 col-12 col-sm-12 col-md-6">
+                <ul style="list-style-type: none;"><b>For Business</b>
+                  <li><a href="#" style="text-decoration: none;" id="flink"> Apple and Business</a></li>
+                  <li><a href="#" style="text-decoration: none;" id="flink">Shop for Business</a></li>
+                </ul>
+                <br>
+
+                <ul style="list-style-type: none;"><b>For Education</b>
+                  <li><a href="#" style="text-decoration: none;" id="flink">Apple and Education</a></li>
+                  <li><a href="#" style="text-decoration: none;" id="flink">Shop for K-12</a></li>
+                  <li><a href="#" style="text-decoration: none;" id="flink">Shop for College</a></li>
+                </ul>
+
+                <ul style="list-style-type: none;"><b>For Healthcare</b>
+                  <li><a href="#" style="text-decoration: none;" id="flink">Apple in Healthcare</a></li>
+                  <li><a href="#" style="text-decoration: none;" id="flink">Health on Apple Watch</a></li>
+                  <li><a href="#" style="text-decoration: none;" id="flink">Health Records on iPhone</a></li>
+                </ul>
+
+                <ul style="list-style-type: none;"><b>For Government</b>
+                  <li><a href="#" style="text-decoration: none;" id="flink">Shop for Government</a></li>
+                  <li><a href="#" style="text-decoration: none;" id="flink">Shop for Veterans and Military</a></li>
+                </ul>
+
+              </div>
+              <div class="col col-lg-2 col-12 col-sm-12 col-md-6">
+                <ul style="list-style-type: none;"><b>
+                  Apple Values</b>
+                  <li><a href="#" style="text-decoration: none;" id="flink">Accessibility</a></li>
+                  <li><a href="#" style="text-decoration: none;" id="flink">Education</a></li>
+                  <li><a href="#" style="text-decoration: none;" id="flink">Environment</a></li>
+                  <li><a href="#" style="text-decoration: none;" id="flink">Inclusion and Diversity</a></li>
+                  <li><a href="#" style="text-decoration: none;" id="flink">Privacy</a></li>
+                  <li><a href="#" style="text-decoration: none;" id="flink">Supplier Responsibility</a></li>
+                </ul>
+                <ul style="list-style-type: none;"><b>
+                  About Apple</b>
+                  <li><a href="#" style="text-decoration: none;" id="flink">Newsroom</a></li>
+                  <li><a href="#" style="text-decoration: none;" id="flink">Apple Leadership</a></li>
+                  <li><a href="#" style="text-decoration: none;" id="flink">Job Opportunities</a></li>
+                  <li><a href="#" style="text-decoration: none;" id="flink">Investors</a></li>
+                  <li><a href="#" style="text-decoration: none;" id="flink">Events</a></li>
+                  <li><a href="#" style="text-decoration: none;" id="flink">Contact Apple</a></li>
+                </ul>
+              </div>
+
+            </div>
+            <br>
+          </div>
+          <p style="font-size: 14px;">More ways to shop: <a href="">Find an Apple Store</a> or <a href="">other retailer</a> near you. Or call 1-800-MY-APPLE.</p>
+          <hr style="background-color: red;height: 2px;">
+        </div>
+        <div class="container-fluid" style="font-size: 11px;">
+          <div class="row">
+            <div class="col col-lg-3 col-12">
+              <p>Copyright © 2020 Apple Inc. All rights reserved.</p>
+
+            </div>
+            <div class=" col-lg-1 col col-3 text-center">
+              <a href="" >Privacy Policy</a></div>
+              <b>|</b>
+              <div class=" col-lg-1 col col-3 text-center">
+              <a href=""> Terms of Use</a></div>
+              <b>|</b>
+              <div class=" col-lg-2 col col-2 text-center">
+                <a href="">  Sales and Refunds</a></div>
+                <b>|</b>
+             
+              <div class=" col-lg-1 col col-2 text-center">
+                <a href=""> Legal</a></div>
+                <b>|</b>
+                <div class=" col-lg-1  col-2 col text-center">
+                  <a href=""> Site Map</a></div>
+                  &emsp;&emsp;&emsp;&emsp;&emsp;
+                  <div class="col col-lg-2" >
+                    <img src="img/r.png" width="40px" style="margin-top: -10px;">
+                    <a href="" style="color: black;">United State</a>
+                  </div>
+
+              
+
+              
+
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+
+
+</body>
+
+</html>

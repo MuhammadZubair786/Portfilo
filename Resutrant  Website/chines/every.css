@@ -1,0 +1,43 @@
+#divtransition{
+    width: 200px;
+height: 20px;
+float: center;
+font-size: 15px;
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQc2SEteqErtW7XMF3FyU_6N7fHFu1zncGXLE-x8ivMCjKf9PNC&usqp=CAU);
+background-attachment: fixed;
+ background-color: rgb(243, 171, 89);
+transition: height : 4s;
+transition : height:   2s;
+transition-duration: 	3s;    			
+border-bottom: solid white;
+border-left-style: solid;
+border-top:solid red;
+border-left:solid blue;
+border-right:solid blue;
+border-bottom :solid red;
+border-right-style: solid;
+border-top-style: solid;
+overflow: hidden;
+
+ }
+#divtransition:hover{
+height: 240px;
+width: 	100%;
+
+border-bottom: dashed red;
+border-width: 5px;
+border-radius: 300px;
+
+
+}
+.card{
+    -webkit-box-shadow: 5px 5px 5px 5px rgba(49, 4, 4, 1);
+    box-shadow: 5px 5px 5px 0px gray;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.card:hover{
+   
+    -webkit-box-shadow: 10px 10px 5px 5px rgb(173, 170, 170);
+}

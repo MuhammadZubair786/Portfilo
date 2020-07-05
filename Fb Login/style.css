@@ -1,0 +1,378 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    
+    background-color: #3d5b99;
+    width: 1350px;
+    height: 90px;
+    z-index:7;
+    font-family:verdana;
+    border-radius: 10px;
+}
+.hleft{
+    
+    margin-left: 20px;
+    
+}
+.hleft h1{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 120px;
+    color: white;
+    font-size: 50px;
+}
+
+.hright1{
+    position: absolute;
+    margin-left: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+.hright1 #email{
+    font-size:15px;
+    position:absolute;
+    margin-top:8px;
+    color: white;
+}
+.hright1 #check{
+    top: 35px;
+    position: relative;
+    color: white;
+}
+
+.hright2{
+    position: absolute;
+    margin-left: 920px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+.hright2 #psd{
+    font-size:15px;
+    position:absolute;
+    margin-top:8px;
+    color: white;
+}
+
+.hright2 #forget{
+    top: 35px;
+    position: relative;
+    color: white;
+}
+
+.hright2 a{
+    text-decoration: none; color: white;
+}
+
+.hlog{
+    position: absolute;
+    margin-left: 1120px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.hlog input{
+    margin-top:23px;
+    width: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: blue;
+}
+
+.center{
+    background-color: white;
+    width: 1350px;
+    height: 600px;
+
+}
+.center .left{
+    position: absolute;
+    background-color: #C1CCDF;
+    width: 650px;
+    height: 600px;
+}
+
+.left h3{
+    margin-left: 130px;
+    margin-top: 20px;
+    color:#142170;
+    font-size: 20px;
+}
+.center .right{
+    margin-top: 0px;;
+    position: absolute;
+    margin-left: 650px;
+    width: 700px;
+    height: 600px;
+    background-color:#C1CCDF;
+}
+.footer{
+    width: 1390px;
+    height: 600px;
+    background-color: white;
+}
+.crt{
+    margin-left: 60px;
+    margin-top: 10px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+.esy{
+    margin-left: 60px;
+    margin-top: 10px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+.inp1{
+    margin-left: 60px;
+    margin-top: 10px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 100px;   
+}
+
+.inp1 input[type='text']{
+    width: 170px;
+    height: 20px;
+    border-radius:5px 5px 5px 5px;
+    padding: 10px;
+    border:1px solid;
+    border-color: black;
+}
+
+.inp2{
+    margin-left: 260px;
+    margin-top: 10px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 100px;
+    
+}
+
+.inp2 input[type='text']{
+    width: 170px;
+    height: 20px;
+    border-radius:5px 5px 5px 5px;
+    padding: 10px;
+    border:1px solid;
+    border-color: black;
+}
+
+.inp3{
+    margin-left: 60px;
+    margin-top: 70px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 100px;
+}
+
+.inp3 input[type='text']{
+    width: 380px;
+    height: 20px;
+    border-radius:5px 5px 5px 5px;
+    padding: 10px;
+    border:1px solid;
+    border-color: black;
+}
+
+
+.inp4{
+    margin-left: 60px;
+    margin-top: 130px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 100px;
+
+}
+
+.inp4 input[type='password']{
+    width: 380px;
+    height: 20px;
+    border-radius:5px 5px 5px 5px;
+    padding: 10px;border:1px solid;
+    border-color: black
+}
+
+.date{
+margin-left: 60px;
+margin-top: 185px;
+position: absolute;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+width: 100px;
+}
+
+.date #day{
+    margin-left: 0px;
+    margin-top: 5px;
+    position: absolute;
+    height: 25px;
+    border:1px solid
+}
+
+.date #mon{
+    margin-left: 70px;
+    margin-top: 5px;
+    position: absolute;
+    height: 25px;
+    border:1px solid
+}
+
+.date #year{
+    margin-left: 170px;
+    margin-top: 5px;
+    position: absolute;
+    height: 25px;
+    border:1px solid
+}
+
+.gen{
+    margin-left: 60px;
+    margin-top: 245px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 100px;
+
+}
+
+.gen #gfm{
+    margin-left: 0px;
+    margin-top: 5px;
+    position: absolute;
+
+}
+
+#gfm_name{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 4px
+}
+
+.gen #gm{
+    margin-left: 100px;
+    margin-top: 5px;
+    position: absolute;
+}
+
+#gm_name{
+    position: absolute;
+    margin-left: 115px;
+    margin-top: 4px
+}
+
+.gen #cs{
+    margin-left: 170px;
+    margin-top: 5px;
+    position: absolute;
+}
+
+#cs_name{
+    position: absolute;
+    margin-left: 185px;
+    margin-top: 4px;
+}
+.wrt{
+    margin-left: 60px;
+    margin-top: 300px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width:400px;
+    
+
+}
+.sub{
+    margin-left: 60px;
+    margin-top: 385px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+
+.sub #submit{
+    width: 200px;
+    color: white;
+    border-radius: 10px;
+    border:1px solid;
+    height: 40px;
+    background-color: green;
+}
+
+
+.lasttxt{
+    margin-left: 60px;
+    margin-top: 445px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+#ft1{
+    margin-top: 40px;
+    margin-left: 180px;
+}
+#ft1 a{
+    margin-left: 25px;
+}
+#ft1 hr{
+    
+    width:1100px;
+}
+#ft2 {
+    margin-top: 30px;
+    margin-left: 180px;
+
+}
+#ft2 a{
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+
+#new{
+    margin-top: 20px;
+    border: 5px double;
+    border-radius: 10px;
+    height: 50px;
+    width: 160px;
+    border-color: brown;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+}
+#new:hover{
+    color:white;
+    background-color:blue;
+    border: 5px double;
+    border-radius: 30px 30px 30px 30px;
+    border-style:inset  inset inset hidden ;
+    border-color:red rgb(238, 28, 28) red red ;
+    height: 50px;
+    width: 180px;
+    text-transform: uppercase;
+
+
+}
+
+#new :active
+{
+    color: red;
+    background-color:pink;  
+    border-radius: 30px 30px 30px 30px;
+    border-style:hidden inset inset inset;
+    border-color: deeppink;
+    width: 130px;
+}

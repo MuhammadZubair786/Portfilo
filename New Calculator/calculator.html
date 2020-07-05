@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style>
+
+table {
+margin-top:70px;
+background-color:#99cc00;
+}
+h1{
+	margin-top:120px;
+	}
+.show{
+	font-size:30px;
+	height:40px;
+	width:310px;
+	text-align:right;
+	}
+.button {
+	color:red;
+	font-size:20px;
+  	display: block;
+  	width: 30%;
+  	height:35px;
+  	width:73px;
+	border-color:blue;
+	border-radius:10px;
+  
+}
+
+</style>
+</head>
+
+
+<body>
+<font color="#990066"><h1 align="center">Calculator Made By Muhammad Zubair Minhas</h1></font>
+<form name="cform">
+<table  border="10" align="center"  >
+<tr>
+<td colspan="4" align="center"  height="40" ><font size="6" color="blue">Calculator</font>
+</td>
+</tr>
+<tr >
+<td   colspan="4" rowspan="1" ><input class="show"   type="text"   name="display"  />
+</td>
+</tr>
+<tr>
+	<td>
+		<input class="button"  type="button" name="btn1"   value=. width="100" size="40" onclick="cform.display.value +='.'" /></font>
+	</td>
+</tr>
+<tr >
+<td    ><input class="button"  type="button" name="btn1"   value=1 width="100" size="40" onclick="cform.display.value +='1'" /></font></td>
+<td align="center" ><input class="button" type="button" name="btn2"   value=2 width="100" onclick="cform.display.value +='2'"/></td>
+<td  align="center" ><input class="button" type="button" name="btn2"   value=3 width="100" onclick="cform.display.value +='3'" /></td>
+<td  align="center" ><input class="button" type="button" name="add"   value="+" width="100" onclick="cform.display.value +='+'" /></td>
+</tr>
+<td    ><input class="button"  type="button" name="btn4"   value=4 width="100" size="40" onclick="cform.display.value +='4'" /></font></td>
+<td align="center" ><input class="button" type="button" name="btn5"   value=5 width="100" onclick="cform.display.value +='5'"/></td>
+<td  align="center" ><input class="button" type="button" name="btn6"   value=6 width="100" onclick="cform.display.value +='6'"/></td>
+<td  align="center" ><input class="button" type="button" name="sub"   value="-" width="100" onclick="cform.display.value +='-'" /></td>
+</tr>
+<td    ><input class="button"  type="button" name="btn7"   value=7 width="100" size="40" onclick="cform.display.value +='7'" /></font></td>
+<td align="center" ><input class="button" type="button" name="btn8"   value=8 width="100" onclick="cform.display.value +='8'" /></td>
+<td  align="center" ><input class="button" type="button" name="btn9"   value=9 width="100" onclick="cform.display.value +='9'" /></td>
+<td  align="center" ><input class="button" type="button" name="btn1"   value="*" width="100" onclick="cform.display.value +='*'"/></td>
+</tr>
+<td    ><input class="button"  type="button" name="clr"   value="C" width="100" size="40" onclick="cform.display.value =' '"/></font></td>
+<td align="center" ><input class="button" type="button" name="zero"   value=0 width="100"  onclick="cform.display.value +='0'"/></td>
+<td  align="center" ><input class="button" type="button" name="equal"   value="=" width="100" onclick="cform.display.value = eval(cform.display.value)"/></td>
+<td  align="center" ><input class="button" type="button" name="divide"   value="\" width="100" onclick="cform.display.value +='/'"/></td>
+</tr>
+</table>
+</body>
+</html>

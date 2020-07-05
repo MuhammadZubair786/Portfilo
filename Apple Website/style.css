@@ -1,0 +1,155 @@
+*,
+*::before,
+*::after{
+	margin: 0;
+	padding: 0;
+
+}
+
+
+a{
+	display: block;
+	text-decoration: none;
+}
+.container{
+	max-width: 98rem;
+	margin: 0 auto;
+	padding: 0 2.2rem;
+}
+header{
+	position: fixed;
+	top: 0;
+	z-index:1400;
+	height: 4.4rem;
+	width: 100%;
+	background-color: rgba(0,0,0,0.8);
+	backdrop-filter:blur(2rem);
+}
+.nav-list{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 -1rem;
+}
+.nav-list-mobile{
+	display: none;
+}
+.nav-link{
+	font-size: 1.4rem;
+	color: #fff;
+	padding: 0 1rem;
+	transition: opacity .5s;
+
+}
+.nav-link:hover{
+	opacity: 0.7;
+}
+.nav-link-apple{
+	width: 1.6rem;
+	height: 4.4rem;
+	font-size: 25px;
+}
+.nav-link-search{
+	width: 1.6rem;
+	height: 4.4rem;
+	font-size: 25px;
+
+
+}
+.nav-link-bag{
+	width: 1.6rem;
+	height: 4.4rem;
+	font-size: 25px;
+
+
+}
+.iphone-11-pro{
+	
+	background: url("if.PNG") ;
+	margin-top: 4.4rem;
+	
+
+}
+.hero{
+	height: 69.2rem;
+	background-size: auto 73.6rem;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-top: 0.6rem solid #fff;
+	border-bottom: 0.6rem solid #fff;
+
+}
+.iphone-11-pro{
+	border-top: none;
+}
+.title{
+	color:#fff;
+	text-align: center;
+	padding-top: 5.5rem;
+}
+.title-heading{
+	font-size: 50px;
+	line-height: 1.07143;
+	letter-spacing: -.005rem;
+}
+.title-sub-heading{
+	font-size: 2.65rem;
+	margin-top: .6rem;
+	letter-spacing: .008rem;
+	font-weight: 400;
+}
+.title-price{
+	font-size: 1.7rem;
+	color:#888;
+	margin-top: .68rem;
+
+}
+.cta{
+	text-align: center;
+	margin-top: 1.8rem;
+
+}
+.cta-link{
+	color: #66bbff;
+	font-size: 2.1rem;
+	display: inline-block;
+}
+.cta-link:nth-child(2){
+	margin-left: 2.6rem;
+}
+.cta-link:hover{
+	border-bottom: 2px solid #66bbff;
+}
+.iphone-11{
+	background: url("iphone_11_medium.jpg") center no-repeat;
+	background-size: 1300px;
+}
+.title-dark{
+	color: #000;
+}
+.cta-link-dark{
+	color:#0070c9;
+}
+.cta-link-dark:hover{
+	border-bottom-color: #0070c9;
+}
+.watch{
+	background: url("watch_medium.jpg") center no-repeat;
+	background-size: 1300px;
+	
+}
+.title-heading-watch{
+	height: 7.8rem;
+	background: url("logo_watch_large.png") center no-repeat;
+	background-size: auto 7.8rem;
+	margin-top: 1.6rem;
+}
+
+
+
+@media screen and (max-width:800px){
+	.nav-list-larger{
+		display: none;
+	}
+}

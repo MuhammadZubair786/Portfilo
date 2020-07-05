@@ -1,0 +1,134 @@
+
+
+	form {
+			border: 5px double;
+			border-radius: 10px 10px 10px 10px; 
+			border-color: yellow;
+		}
+
+		input[type='text'],
+		input[type='email']
+		 {
+			border: 5px double;
+			border-radius: 10px;
+			height: 30px;
+			border-color: brown;
+			font-size: 20px;
+			color:black;
+			
+
+		}
+
+		textarea:hover{
+			background-color: cyan
+
+		}
+		
+		select{
+	
+			border:5px ;
+			font-size: 18px;
+			border-radius: 10px;
+			border-color:red ;
+			border-style: inset;
+		}
+
+		select:hover{
+			background-color: cyan;
+}
+		input[type='text']:hover,
+		input[type='email']:hover
+		 {
+			
+			
+			height: 30px;
+			border-color: brown;
+			font-size: 20px;
+			color:black;
+			background-color:cyan;
+			text-align: left;
+
+		}
+
+		textarea {
+			border: 5px double;
+			border-radius: 10px;
+			border-color: brown;
+
+
+		}
+
+		input[type='submit'],
+		input[type='reset'] {
+			border: 5px double;
+			border-radius: 10px;
+			height: 50px;
+			width: 130px;
+			border-color: brown;
+
+			
+
+
+		}
+		
+		input[type='submit']:hover,
+		input[type='reset']:hover{
+			color:white;
+			background-color:blue;
+			border: 5px double;
+			border-radius: 30px 30px 30px 30px;
+			border-style:inset  inset inset hidden ;
+			border-color:red rgb(238, 28, 28) red red ;
+			height: 50px;
+			width: 150px;
+			text-transform: uppercase;
+
+			
+		
+
+		}
+		
+		input[type='reset']:active,
+		input[type='submit']:active{
+			color: red;
+			background-color:pink;	
+			border-radius: 30px 30px 30px 30px;
+			border-style:hidden inset inset inset;
+			border-color: deeppink;
+			width: 130px;
+		}
+
+		button{
+            margin-top: 20px;
+            border: 5px double;
+            border-radius: 10px;
+            height: 50px;
+            width: 160px;
+            border-color: brown;
+            background-color: orange;
+            color: white;
+            font-size: 20px;
+        }
+        button:hover{
+            color:white;
+            background-color:blue;
+            border: 5px double;
+            border-radius: 30px 30px 30px 30px;
+            border-style:inset  inset inset hidden ;
+            border-color:red rgb(238, 28, 28) red red ;
+            height: 50px;
+            width: 180px;
+            text-transform: uppercase;
+
+
+        }
+
+         button:active
+        {
+            color: red;
+            background-color:pink;  
+            border-radius: 30px 30px 30px 30px;
+            border-style:hidden inset inset inset;
+            border-color: deeppink;
+            width: 130px;
+        }

@@ -1,0 +1,333 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@MuhammadZubair786 
+Incognito95
+/
+apple-website
+0
+04
+ Code
+ Issues 0
+ Pull requests 0 Actions
+ Projects 0
+ Wiki
+ Security 0
+ Insights
+apple-website/index.html
+@Incognito95 Incognito95 Add files via upload
+dff3d44 on Jun 16, 2018
+105 lines (84 sloc)  3.49 KB
+  
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Apple - clone</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <style>
+        * {
+    margin: 0;
+}
+    header {
+    background-color:rgb(53, 53, 53);
+    padding: -10%;
+}
+
+#images {
+     text-align: justify;
+     margin: 10px;
+     margin-top: 0;
+}
+#images a {
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+}
+.stretch {
+    width: 100%;
+    display: inline-block;
+}
+
+#images img {
+    margin-bottom: -20px;
+}
+
+h1 {
+    font-family: myriad pro;
+    margin-top: 50px;
+    text-align: center;
+}
+
+p {
+    font-family: myriad pro;
+    text-align: center;
+    font-size: 20px;
+}
+
+#iphone img {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+#ipad img {
+    width: 100%;
+    margin-top: 60px;
+}
+
+#mac img {
+    width: 100%;
+    margin-top: -20px;
+    height: 20%;
+}
+
+
+h2 {
+    margin-top: -210px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: myriad pro;
+}
+
+.centered p {
+    margin-top: 10px;
+    color: white;
+}
+
+.container {
+    margin-top: -40px;
+}
+
+#arrow img {
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    width: 20px;
+}
+
+#arrow img {
+    text-align: justify;
+    margin-left: 230px;
+    margin-top: -58px;
+}
+
+#ios12 img {
+    margin-top: 10px;
+}
+
+.watchos {
+    margin-top: 60px;
+    text-align: center;
+    line-height: 20px;
+    font-family: myriad pro;
+}
+
+#bold img {
+    margin-top: 8px;
+}
+
+#bold h6 {
+    font-family: myriad pro;
+    margin-top: -360px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal
+}
+
+#game p {
+    color: white;
+    margin-top: -1100px;
+    line-height: 60px;
+    font-size: 20px;
+}
+
+footer {
+    background-color: rgb(242, 242, 242);
+    padding: 40%;
+    margin-top: 250px;
+    margin-left: -100px;
+    padding-right: 20px;
+    color: rgb(135, 135, 135);
+    font-size: 70%;
+    font-family: myriad pro;
+}
+
+/* ------- dropdown ------ */
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.accordion {
+    margin-top: 20px;
+    font-family: myriad pro;
+}
+
+#shop p {
+    font-size: 15px;
+    margin-left: -40px;
+    margin-top: 10px;
+}
+
+#flag img {
+    width: 20px;
+    margin-left: -20px;
+    margin-top: 20px;
+}
+
+#flag p {
+    margin-left: 10px;
+    display: inline-block;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        
+            <div id="images">
+                    <a id="single_image1" href="#"><img src="burger-menu.png" style="width: 20px"/></a>
+                    <a id="single_image2" href="#"><img src="https://www.apple.com/ac/globalnav/3/en_US/images/globalnav/apple/image_small.svg" alt=""/></a>
+                    <a id="single_image3" href="#"><img src="https://www.apple.com/ac/globalnav/3/en_US/images/globalnav/bag/image_small.svg"alt=""/></a>
+                    <span class="stretch"></span>
+                </div>
+    </header>
+
+    <h1>iPhone X</h1>
+    <p>Say hello to the future.</p>
+
+    <div id="iphone">
+            <img src="iphone.jpg">
+    </div>
+
+    <div id="ipad">
+            <img src="ipad.jpg">
+
+        <div class="container">
+                <img src="mac.jpg" style="height:100%;">
+                <div class="centered">
+                    <h2>Behind the Mac</h2>
+                    <p>Watch the film</p>
+                    <p>Explore Mac</p>
+                </div>
+            </div>
+
+            <div id="arrow">
+                <img src="arrow.png">
+            </div>
+            
+            <div id="iphone8">
+                <img src="iphone8.png">
+            </div>
+
+            <div id="ios12">
+                <img src="ios12.jpg">
+            </div>
+
+            <div id="mojave">
+                    <img src="mojave.jpg">
+                    </div>
+            
+            <div class="watchos">
+                    <strong>watchOS 5</strong>
+                    <h5>Be more active.</h5>
+                    <h5>Stay better connected.</h5>
+                <img src="watchos5.png">
+            </div>
+
+            <div id="tv">
+                <img src="tv4k.jpg">
+            </div>
+
+            
+        <div id="bold">
+            <img src="bold.jpg">
+            <h6>How to shoot on iPhone.</h6>
+        </div>
+
+        <footer>
+                &copy; A portion of the proceeds from every (PRODUCT)RED™ purchase will go to the Global Fund to fight AIDS in Africa.
+                <br><br><strong>The Greatest Showman</strong> is available on iTunes. The Greatest Showman © 2018 FOX. All rights reserved.
+
+            <div class="accrodion">
+                <button class="accordion">Shop and Learn</button>
+                <button class="accordion">Apple Store</button>
+                <button class="accordion">For Education</button>
+                <button class="accordion">For Business</button>
+                <button class="accordion">Account</button>
+                <button class="accordion">Apple Values</button>
+                <button class="accordion">About Apple</button>
+            </div>
+            
+            <div id="shop">
+                <p>More ways to shop: Visit an <a href="Apple Store">Apple Store,</a></p>
+                <br><p>call 1-800-MY-APPLE, or <a href="find a reseller">find a reseller.</a></p>
+            </div>
+
+
+            
+            <div id="flag">
+                <img src="flag.png"><p>United States</p>
+            </div>
+
+        </footer>
+                <div id="game">
+                    <p>Make the beautiful game even more beautiful.</p>
+                    </div>
+
+                    <script src="accordion.js"></script>
+</body>
+</html>
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About

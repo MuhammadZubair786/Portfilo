@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>ITALIC MENU</title>
+    <style>
+
+.card{
+            -webkit-box-shadow: 5px 5px 5px 5px rgba(49, 4, 4, 1);
+            box-shadow: 5px 5px 5px 0px gray;
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+
+        .card:hover{
+           
+            -webkit-box-shadow: 10px 10px 5px 5px rgba(49, 4, 4, 1);
+        }
+        #c1{
+            display: none;
+        }
+        #c2{
+            display: none;
+        }
+       
+        #c3{
+            display: none;
+        }
+       
+        #c4{
+            display: none;
+        }
+       
+        #c5{
+            display: none;
+        }
+       
+        #c6{
+            display: none;
+        }
+       
+        #c7{
+            display: none;
+        }
+       
+        #c8{
+            display: none;
+        }
+        #c9{
+            display: none;
+        }
+       
+        
+    </style>
+
+    <script src="ijs.js"></script>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="menu_style.css">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header" style="background-color: hsla(0, 0%, 0%, 0.16);">
+                <img src="logo1.jpg" width="150px" id="divimglogo">
+                <br>
+                <!-- <img src="logo1.png" alt="logo"> -->
+            </div>
+
+            <ul class="list-unstyled components">
+                <img src="line.png" width="100%">
+                <br>
+               <li>
+                    <a href="index.html" id="sidenav" >Dashboard</a>
+                </li>
+                <li>
+                    <a href="menu.html" id="sidenav">Menu</a>
+                  
+                </li>
+                
+                <li>
+                    <a href="contact.html"  id="sidenav">Contact Us</a>
+                </li>
+                <li>
+                    <a href="about.html"  id="sidenav">About Us</a>
+                </li>
+
+                <li>
+                    <a href="gallery.html"  id="sidenav">Gallery</a>
+                </li>
+                <li>
+                    <a href="#"  id="sidenav">Logout</a>
+                </li>
+                <li>
+                    <a href="menu.html" id="sidenav">Back</a>
+                </li>
+                <img src="line.png" width="100%">
+            </ul>
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col col-lg-12">
+                        <div class="menu-header ">
+
+
+
+                            <button type="button" id="sidebarCollapse" class="btn menu-btn">
+                                <img src="nav.png" alt="Menu">&emsp;&emsp;&emsp;&emsp;
+                            </button>
+                            <span class="menu-text"><img src="logo1.jpg" height="50px"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-lg-12 text-center">
+                        <div id="logodiv" style="color: white;">
+                            Spicy Bite<br>
+                            <div id="roll">Roll, Bar B Quee & Fast Food</div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="row">
+                    <div class="col">
+
+                        <marquee scrollamount="8" direction="left" onmouseover="this.stop();" onmouseout="this.start();"
+                            behavior="scroll"
+                            style="border-radius: 20px;border:3px solid;border-top: 2px dashed blue;border-left: 2px dashed red;border-bottom:2px dashed blue ;border-right: 2px dashed red;">
+                            <img src="italian/italian pizza.jpg" style="height:125px;width:190px;border-radius: 20px;">
+                            <img src="italian/Grilled italian burger.jpg" width="190px"
+                                style="height:125px;width:190px;border-radius: 20px;">
+                            <img src="italian/Onion-Smothered Italian Burgers.jpg" width="190px"
+                                style="height:125px;width:190px;border-radius: 20px;">
+                            <img src="italian/italian-mutton.jpg" width="190px"
+                                style="height:125px;width:190px;border-radius: 20px;">
+                            <img src="italian/Neapolitan pizza.jpg" width="190px"
+                                style="height:125px;width:190px;border-radius: 20px;">
+                            <img src="italian/Grilled italian burger.jpg" width="190px"
+                                style="height:125px;width:190px;border-radius: 20px;">
+                            <img src="italian/italian-chicken-salad.jpg" width="190px"
+                                style="height:125px;width:190px;border-radius: 20px;">
+                            <img src="italian/lasagna Roll.jpg" width="190px"
+                                style="height:125px;width:190px;border-radius: 20px;">
+                            <img src="italian/italian-chicken.jpg" width="190px"
+                                style="height:125px;width:190px;border-radius: 20px;">
+                            <img src="italian/Margherita Pizza.jpg" width="190px"
+                                style="height:125px;width:190px;border-radius: 20px;"> </marquee>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid" style="background-image:url();margin-top: 10px;">
+                <div class="row">
+
+                    <div class="col col-lg-11 col-12 text-center">
+                        <h2 style="color: white;background-image: url(texture.jpg);display: inline;" id="st">
+                            &emsp;&emsp;&emsp;&emsp;&emsp;  Italian Tasty Foods&emsp;&emsp;&emsp;&emsp;&emsp;</h3>
+
+
+                    </div>
+                    <div class="col col-lg-1 col-12 text-center ">
+                        <img src="menuimage.png" width="120px" height="100px" style="margin-left: -100px;">
+                    </div>
+                    <div class="container-fluid">
+                        <div class="container" style="background-color: maroon;">
+                            <div class="row">
+                                <div class="col col-lg-4 ">
+                                    <div class="card " style="width: 18rem;margin-top: 10px;">
+                                        <img class="card-img-top" src="italian/Chicken-Marsala.jpg" alt="Card image cap" height="200px">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Chicken Marsala</h5>
+                                         
+                                          <a onclick="myfunction1()" style="color: white;"  class="btn btn-success">Check Price</a>
+                                          <h4 id="c1">Price :500Rs</h4>  
+                                        </div>
+                                      </div>
+
+                                   
+                                </div>
+                                <div class="col col-lg-4">
+                                    <div class="card " style="width: 18rem;margin-top: 10px;">
+                                        <img class="card-img-top" src="italian/italian-chicken-salad.jpg"Card image cap" height="200px">
+                                        <div class="card-body">
+                                          <h5 class="card-title">italian chicken salad</h5>
+                                         
+                                          <a onclick="myfunction2()" style="color: white;"  class="btn btn-success">Check Price</a>
+                                          <h4 id="c2">Price :500Rs</h4>
+                                        </div>
+                                      </div>
+                                   
+                                </div>
+                                <div class="col col-lg-4">
+                                    <div class="card " style="width: 18rem;margin-top: 10px;">
+                                        <img class="card-img-top" src="italian/italian-chicken.jpg" alt="Card image cap" height="200px">
+                                        <div class="card-body">
+                                          <h5 class="card-title">italian chicken</h5>
+                                         
+                                          <a onclick="myfunction3()" style="color: white;"  class="btn btn-success">Check Price</a>
+                                          <h4 id="c3">Price :500Rs</h4>
+                                          
+                                        </div>
+                                      </div>
+                                   
+                                </div>
+                                
+                               
+
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col col-lg-4 ">
+                                    <div class="card " style="width: 18rem;margin-top: 10px;">
+                                        <img class="card-img-top" src="italian/Grilled italian burger.jpg" alt="Card image cap"  height="200px">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Grilled italian burger</h5>
+                                         
+                                          <a onclick="myfunction4()" style="color: white;"  class="btn btn-success">Check Price</a>
+                                          <h4 id="c4">Price :500Rs</h4>
+                                        </div>
+                                      </div>
+
+                                   
+                                </div>
+                                <div class="col col-lg-4">
+                                    <div class="card " style="width: 18rem;margin-top: 10px;">
+                                        <img class="card-img-top" src="italian/Onion-Smothered Italian Burgers.jpg" alt="Card image cap" height="200px">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Smothered Italian Burgers</h5>
+                                         
+                                          <a onclick="myfunction5()" style="color: white;"  class="btn btn-success">Check Price</a>
+                                          <h4 id="c5">Price :500Rs</h4>
+                                        </div>
+                                      </div>
+                                   
+                                </div>
+                                <div class="col col-lg-4">
+                                    <div class="card " style="width: 18rem;margin-top: 10px;">
+                                        <img class="card-img-top" src="italian/lasagna Roll.jpg" alt="Card image cap" height="200px">
+                                        <div class="card-body">
+                                          <h5 class="card-title">lasagna Roll</h5>
+                                          <a onclick="myfunction6()" style="color: white;"  class="btn btn-success">Check Price</a>
+                                        <h4 id="c6">Price :500Rs</h4>
+                                        
+                                          
+                                        </div>
+                                      </div>
+                                   
+                                </div>
+                            <br>
+                            
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col col-lg-4 ">
+                                <div class="card " style="width: 18rem;margin-top: 10px;">
+                                    <img class="card-img-top" src="italian/italian pizza.jpg" alt="Card image cap"  height="200px">
+                                    <div class="card-body">
+                                      <h5 class="card-title">italian pizza</h5>
+                                     
+                                      <a onclick="myfunction7()" style="color: white;"  class="btn btn-success">Check Price</a>
+                                        <h4 id="c7">Price :500Rs</h4>
+                                    </div>
+                                  </div>
+
+                               
+                            </div>
+                            <div class="col col-lg-4">
+                                <div class="card " style="width: 18rem;margin-top: 10px;">
+                                    <img class="card-img-top" src="italian/Margherita Pizza.jpg" alt="Card image cap" height="200px">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Margherita Pizza</h5>
+                                     
+                                      <a onclick="myfunction8()" style="color: white;"  class="btn btn-success">Check Price</a>
+                                      <h4 id="c8">Price :500Rs</h4>
+                                    </div>
+                                  </div>
+                               
+                            </div>
+                            <div class="col col-lg-4">
+                                <div class="card " style="width: 18rem;margin-top: 10px;">
+                                    <img class="card-img-top" src="italian/Neapolitan pizza.jpg" alt="Card image cap" height="200px">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Neapolitan pizza</h5>
+                                     
+                                      <a onclick="myfunction9()" style="color: white;"  class="btn btn-success">Check Price</a>
+                                      <h4 id="c9">Price :500Rs</h4>
+                                      
+                                    </div>
+                                  </div>
+                               
+                            </div>
+                        <br>
+               
+                    </div>
+                    <br>
+
+                  
+                
+
+                </div>
+
+               
+            </div>
+            
+
+          
+
+
+        </div>
+        <br><br>
+       
+    </div>
+    
+
+
+
+
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+        integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#sidebar").mCustomScrollbar({
+                theme: "minimal"
+            });
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar, #content').toggleClass('active');
+                $('.collapse.in').toggleClass('in');
+                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
+        });
+    </script>
+</body>
+
+</html>

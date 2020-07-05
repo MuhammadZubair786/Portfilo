@@ -1,0 +1,229 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#lg{
+    text-align: center;
+     margin-top:5px"
+}
+.f1{
+    margin-top:15px;
+    background-color: red;
+    text-align: center;
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+    height: 50px;
+    font-size: 20px;
+    border-top: 5px solid blue;
+}
+
+ul{
+    text-align: center;
+}
+li{
+    
+    position: relative;
+    top: 15px;
+    margin-left: 20px;
+    display: inline-block;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+    opacity: 0.9;
+    text-shadow: 0px  5px 5px blue;
+}
+a:hover{
+    cursor: pointer;
+}
+.slpic{
+    margin-top: 20px;
+    background-color: #F928EC;
+    height: 150px;
+    width: 1100px;
+    text-align: center;
+     margin-left: auto;
+  margin-right: auto;
+  border-top: 5px solid blue;
+  border-bottom: 5px solid blue;
+  
+    }
+.slpic h1{
+    text-align: center;
+    color: white;;
+    position: relative;
+    top:60px;
+    text-shadow: 0px  5px 5px red;
+}
+.third{
+    width: 1100px;
+    margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 0px;
+}
+.div1{
+    position: absolute;
+    margin-top: 20px;
+    display: inline-block;
+    width: 360px;
+    height: 150px;
+    background-color: #7DF638;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.div1 h1{
+    text-align: center;
+    margin-top: 50px;
+    text-shadow: 0px  5px 5px purple;
+}
+
+.div2{
+    position: absolute;
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 370px;
+    width: 360px;
+    height: 150px;
+    background-color: #7DF638;
+    display: inline-block;
+    
+}
+
+.div2 h1{
+    text-align: center;
+    margin-top: 50px;
+    text-shadow: 0px  5px 5px purple;    
+
+}
+
+.div3{
+    position: absolute;
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 740px;
+    width: 360px;
+    height: 290px;
+    background-color:#28FFE5;
+    display: inline-block;
+    
+}
+
+.div3 h1{
+    text-align: center;
+    margin-top: 130px;
+    text-shadow: 0px  5px 5px yellow;
+}
+
+
+.div4{
+    position: absolute;
+    margin-top: 190px;
+    display: inline-block;
+    margin-left: 130px;
+    width: 235px;
+    height: 120px;
+    text-align: center;
+
+    background-color:#F9D705;
+    display: inline-block;
+    
+}
+
+.div4 h1{
+    text-align: center;
+    margin-top: 30px;
+    text-shadow: 0px  5px 5px blue;
+}
+
+.div5{
+    position: absolute;
+    margin-top: 190px;
+    display: inline-block;
+    margin-left:375px;
+    text-align: center;
+    width: 235px;
+    height: 120px;
+    background-color:#F9D705;
+    display: inline-block;
+    
+}
+
+.div5 h1{
+    text-align: center;
+    margin-top: 30px;
+    text-shadow: 0px  5px 5px blue;
+}
+
+.div6{
+    position: absolute;
+    margin-top: 190px;
+    display: inline-block;
+    margin-left: 620px;
+    text-align: center;
+    width: 240px;
+    height: 120px;
+    background-color:#F9D705;
+    display: inline-block;
+    
+}
+
+.div6 h1{
+    text-align: center;
+    margin-top: 30px;
+    text-shadow: 0px  5px 5px blue;
+}
+.footer{
+    position: relative;
+    top: 330px;
+    width: 1100px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: blue;
+    font-size: 20px;
+    color: white;
+}
+.footer i{
+    margin-top: 10px;
+}
+
+#new{
+    margin-top: 20px;
+    border: 5px double;
+    border-radius: 10px;
+    height: 50px;
+    width: 160px;
+    border-color: brown;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+}
+#new:hover{
+    color:white;
+    background-color:blue;
+    border: 5px double;
+    border-radius: 30px 30px 30px 30px;
+    border-style:inset  inset inset hidden ;
+    border-color:red rgb(238, 28, 28) red red ;
+    height: 50px;
+    width: 180px;
+    text-transform: uppercase;
+
+
+}
+
+#new :active
+{
+    color: red;
+    background-color:pink;  
+    border-radius: 30px 30px 30px 30px;
+    border-style:hidden inset inset inset;
+    border-color: deeppink;
+    width: 130px;
+}

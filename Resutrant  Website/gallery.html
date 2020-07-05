@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title> Spicy Bite Gallery </title>
+    <style>
+        input {
+            border: 0;
+            outline: 0;
+            background: transparent;
+            border-bottom: 1px solid black;
+
+        }
+
+        input:hover {
+            border-color: blue;
+            border-bottom: 3px solid blue;
+        }
+    </style>
+    <link rel="stylesheet" href="style/css/all.css">
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="menu_style.css">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header" style="background-color: hsla(0, 0%, 0%, 0.16);">
+                <img src="logo1.jpg" width="150px" id="divimglogo">
+                <br>
+                <!-- <img src="logo1.png" alt="logo"> -->
+            </div>
+
+            <ul class="list-unstyled components">
+                <img src="line.png" width="100%">
+                <br>
+                <li>
+                    <a href="index.html" id="sidenav" >Dashboard</a>
+                </li>
+                <li>
+                    <a href="menu.html" id="sidenav">Menu</a>
+                  
+                </li>
+                
+                <li>
+                    <a href="contact.html"  id="sidenav">Contact Us</a>
+                </li>
+                <li>
+                    <a href="about.html"  id="sidenav">About Us</a>
+                </li>
+
+                <li>
+                    <a href="gallery.html"  id="sidenav">Gallery</a>
+                </li>
+                <li>
+                    <a href="#"  id="sidenav">Logout</a>
+                </li>
+                <img src="line.png" width="100%">
+            </ul>
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col col-lg-12">
+                        <div class="menu-header ">
+
+
+
+                            <button type="button" id="sidebarCollapse" class="btn menu-btn">
+                                <img src="nav.png" alt="Menu">&emsp;&emsp;&emsp;&emsp;
+                            </button>
+                            <span class="menu-text"><img src="logo1.jpg" height="50px"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-lg-12 text-center">
+                        <div id="logodiv" style="color: white;">
+                            Spicy Bite<br>
+                            <div id="roll">Roll, Bar B Quee & Fast Food</div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="row">
+                    <div class="col">
+
+                        <marquee scrollamount="8" direction="left" onmouseover="this.stop();" onmouseout="this.start();"
+                            behavior="scroll"
+                            style="border-radius: 20px;border:3px solid;border-top: 2px dashed blue;border-left: 2px dashed red;border-bottom:2px dashed blue ;border-right: 2px dashed red;">
+                            <img src="pakistani/1.jpg" style="height:125px;width:190px;border-radius: 20px;">
+                            <img src="pakistani/2.jpg" width="190px"
+                                style="height:125px;width:190px;border-radius: 20px;">
+                            <img src="pakistani/3.jpg" width="190px"
+                                style="height:125px;width:190px;border-radius: 20px;">
+                            <img src="pakistani/4.jpg" width="190px"
+                                style="height:125px;width:190px;border-radius: 20px;">
+                            <img src="pakistani/5.jpg" width="190px"
+                                style="height:125px;width:190px;border-radius: 20px;">
+                            <img src="pakistani/12.jpg" width="190px"
+                                style="height:125px;width:190px;border-radius: 20px;">
+                            <img src="pakistani/7.jpg" width="190px"
+                                style="height:125px;width:190px;border-radius: 20px;">
+                            <img src="pakistani/8.jpg" width="190px"
+                                style="height:125px;width:190px;border-radius: 20px;">
+                            <img src="pakistani/9.jpg" width="190px"
+                                style="height:125px;width:190px;border-radius: 20px;">
+                            <img src="pakistani/11.jpg" width="190px"
+                                style="height:125px;width:190px;border-radius: 20px;"> </marquee>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid" style="background-color: white;">
+                <div class="container" >
+                    <br><br>
+                    <h2 style="color: black;" class="text-center">
+                     
+                        GALLERY
+                        <br>
+                    </h2>
+                    <div class="row">
+                       <div class="col col-lg-6 col-12">
+                           <img src="https://b.zmtcdn.com/data/pictures/8/101008/f63c3ee8bbe3a8c25c9300e5c14817c4.jpg" width="100%" height="350px">
+                       </div>
+                       <div class="col col-lg-6 col-12">
+                        <img src="https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/g_south,l_text:style_gothic2:%C2%A9%20Kzenon,o_20,y_10/g_center,l_watermark4,o_25,y_50/v1465724836/zr9jkwb5p5hp1hi3aoaa.jpg" width="100%" height="350px">
+                    </div>
+                   
+                    </div>
+
+                    
+                    <br>
+                    <div class="row">
+                        <div class="col col-lg-6 col-12">
+                            <img src="https://media-cdn.tripadvisor.com/media/photo-s/13/cb/7d/78/photo0jpg.jpg" width="100%" height="350px">
+                        </div>
+                        <div class="col col-lg-6 col-12">
+                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTHiIVQ2DQ2KlwoGf9xJkCqDrx9f9FCbbbuXEJjWrzMMkJ_cKrJ&usqp=CAU" width="100%" height="350px">
+                     </div>
+                    
+                     </div>
+
+                     <br>
+                    <div class="row">
+                        <div class="col col-lg-6 col-12">
+                            <img src="https://i.dawn.com/large/2018/08/5b87861ebe73f.png?r=333488902" width="100%" height="350px">
+                        </div>
+                        <div class="col col-lg-6 col-12">
+                         <img src="https://blog.atlantisthepalm.com/wp-content/uploads/2015/03/Basil-Mozarella-Tomato-Pizza1.jpg" width="100%" height="350px">
+                     </div>
+                    
+                     </div>
+
+                     <br>
+                    <div class="row">
+                        <div class="col col-lg-6 col-12">
+                            <img src="https://lh3.googleusercontent.com/SZzuYrE9nkzf5iIEhd8Yk5CifHeI-frAfP8SL3Luq9wIx1lSHhHoF8Mm5bIhzv7dz6M78Q5W=w1080-h608-p-no-v0" width="100%" height="350px">
+                        </div>
+                        <div class="col col-lg-6 col-12">
+                         <img src="https://imagevars.gulfnews.com/2019/10/13/Shawarma-1_16dc440eab1_medium.jpg" width="100%" height="350px">
+                     </div>
+                    
+                     </div>
+
+                     <br>
+                    <div class="row">
+                        <div class="col col-lg-6 col-12">
+                            <img src="https://i.dailymail.co.uk/i/pix/2012/03/02/article-0-12013A16000005DC-527_468x311.jpg" width="100%" height="350px">
+                        </div>
+                        <div class="col col-lg-6 col-12">
+                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQTcUAjbb4KpE27VjHYCw7adz73Eimb9E6xlhtkynNesLKvLzdI&usqp=CAU" width="100%" height="350px">
+                     </div>
+                    
+                     </div>
+                     <br>
+                </div>
+            </div>
+                       
+                           
+            <br><br>
+            <footer style="background-color: hsla( 174, 1%, 25%);color: white;">
+                <div class="container">
+                    <BR>
+                    <div class="row">
+                        
+                        
+                        <div class="col col-lg-4 col-12">
+                           
+                               <h2 style="color: red;"> Hyderabad/CORPORATE OFFICE:</h2>
+                               <h6 style="opacity: 0.7;">Head Offices,</h6>
+                               <h6 style="opacity: 0.7;">A-25,Qasim Chock,Pakistan</h6>
+                               <h6 style="display: inline;opacity: 0.7;"><i class="fas fa-phone-alt" style="color: blue;font-size: 15px;"></i>&nbsp;&nbsp;UAN:111-729-526</h6>
+                               <h6 style="display: inline;margin-left: 40px;opacity: 0.7;"><i class="fas fa-globe-europe" style="color: blue;font-size: 15px;"></i>&nbsp;&nbsp; (+0092-213) 4130786-90</h6>
+                               
+                               <h6 style="opacity: 0.7;margin-top: 10PX;"><i class="fas fa-phone-alt" style="color: blue;font-size: 15px;"></i>&nbsp;&nbsp;Cell:92-3561-129526</h6>
+                               <h6 style="opacity: 0.7;"><i class="fas fa-phone-alt" style="color: blue;font-size: 15px;"></i>&nbsp;&nbsp;USA NO +1(716)968 7792</h6>
+                               <h6 style="opacity: 0.7;"> <i class="fas fa-phone-alt" style="color: blue;font-size: 15px;"></i>&nbsp;&nbsp; UK NO (+44)565 950 6256,</h6>   
+                               <h6 style="opacity: 0.7;"><i class="far fa-envelope" style="color: blue;font-size: 15px;"></i>&nbsp;&nbsp;  info@SpicyBite.com</h6> 
+                                
+                           
+                        </div>
+                        <div class="col col-lg-4 col-12 text-center">
+                           <font style="color: skyblue;"> <i style="font-size: 35px; color: red;font-family: Arial, Helvetica, sans-serif;font-weight: bold;">Opening Hours</i>
+                            <br>
+                            <i style="font-size: 20px;">Monday &nbsp;&nbsp;&nbsp;   11:00 Am - 1:00 Pm</i>
+                            <br>
+                            <i style="font-size: 20px;">Tuesday &nbsp;&nbsp;&nbsp;   11:00 Am - 11:00 Pm</i>
+                            <br>
+                            <i style="font-size: 20px;">Wednesday &nbsp;&nbsp;&nbsp;   11:00 Am - 11:00 Pm</i>
+                            <br>
+                            <i style="font-size: 20px;">Thursday &nbsp;&nbsp;&nbsp;   11:00 Am - 1:00 Pm</i>
+                            <br>
+                            <i style="font-size: 20px;">Friday &nbsp;&nbsp;&nbsp;   11:00 Am - 12:00 Pm</i>
+                            <br>
+                            <i style="font-size: 20px;">Saturday &nbsp;&nbsp;&nbsp;   11:00 Am - 11:00 Pm</i>
+                            <br>
+                            <i style="font-size: 20px;">Sunday &nbsp;&nbsp;&nbsp;   Closed   </i>
+                            </font>
+                                               
+                              
+                           
+                          
+                            
+            
+    
+                            
+                       
+                    </div>
+                    <div class="col col-lg-3">
+                           
+                        <h2 style="color: red;"> LINKS: </h2>
+                        <p style="margin-top: 20px;display: flex;"><a href="https://www.facebook.com/pg/saylaniwelfare" target="_blanks" style="color: white;margin-left: 10px;border-radius: 100px;"><i class="fab fa-facebook" style="font-size: 20px;"></i></a>
+                            <a href="https://twitter.com/OfficialSwit"  target="_blanks" style="color: white;margin-left: 10px;border-radius: 100px;"> <i class="fab fa-twitter" id="tw" style="font-size: 20px;"></i></a>
+                            <a href="https://www.instagram.com/saylaniwelfare/" target="_blanks" style="color: white;margin-left: 10px;border-radius: 100px;"> <i class="fab fa-instagram" id="inst" style="font-size: 20px;"></i></a>
+                            <a href="https://www.youtube.com/c/SaylaniWelfareTrustOfficialPage" target="_blanks" style="color: white;;margin-left: 10px;border-radius: 100px;"> <i class="fab fa-youtube" id="ytub" style="font-size: 20px;"></i></a>
+                            
+                           </p>
+                        
+                   
+                </div>
+                    
+                    </div>
+                </footer>
+
+          
+            </div>
+            </div>
+
+
+
+
+
+
+        </div>
+    </div>
+    
+
+
+
+
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+        integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#sidebar").mCustomScrollbar({
+                theme: "minimal"
+            });
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar, #content').toggleClass('active');
+                $('.collapse.in').toggleClass('in');
+                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
+        });
+    </script>
+</body>
+
+</html>
